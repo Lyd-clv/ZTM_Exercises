@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+
+.buffer {
+  height: 10 rem;
+
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px; 
+  text-transform: uppercase; 
+  /* Either using class selektor in HTML like class="text-uppercase" or text-transform in css file */
+}
+
+.btn-primary {
+  background-color: rgb(240, 95, 68);
+  border-color: rgb(240, 95, 68);
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+}
+
+.btn-xl {
+ padding: 1rem 2rem;
+}
+
