@@ -54,6 +54,41 @@ a {
     margin-left: auto;
 }
 
+/* COVER */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    /* If I want my website to be RESPONSIVE and adjust in height, use vh (=viewport height) instead of px! 
+    -> e.g. 100% would cover the whole viewport and adjust to it*/
+}
+
+/* GRID */
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
