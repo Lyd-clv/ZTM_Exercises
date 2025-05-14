@@ -2,9 +2,9 @@
 // For all of these, what is the value of a when the function gets called with the alert()
 // #1
 function q1() {
-    var a = 5;
-    if(a > 1) {
-        a = 3;
+    var a = 5;         
+    if(a > 1) {        
+        a = 3;         
     }
     alert(a); //3
 }
